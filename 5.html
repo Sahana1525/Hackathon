@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bio-Rhythm Sync | FAQ</title>
+
+  <!-- Bootstrap CSS (for accordion + responsiveness) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* ================================
+       BIO-RHYTHM SYNC FAQ SECTION
+       Optimized CSS (converted from LESS)
+       ================================ */
+
+    .faq-section {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      background-color: #f5f5f5;
+      position: relative;
+    }
+
+    .faq-section.bg-color {
+      background-color: #f5f5f5;
+    }
+
+    .faq-section.bg-image {
+      background-image: url("https://images.unsplash.com/photo-1507537509458-b8312d35a233?auto=format&fit=crop&w=1200&q=60");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .mbr-fallback-image {
+      display: block;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+    }
+
+    .mbr-fallback-image.disabled {
+      display: none;
+    }
+
+    .content-wrapper {
+      margin-bottom: 44px;
+    }
+
+    @media (max-width: 992px) {
+      .content-wrapper {
+        margin-bottom: 32px;
+      }
+    }
+
+    .label-wrapper {
+      margin-bottom: 32px;
+      text-align: center;
+    }
+
+    .label-wrap {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 12px;
+      background-color: #f5f5f5;
+      border-top: 2px solid #ffffff;
+      box-shadow: 0 8px 20px -8px #9c9c9c;
+      border-radius: 30px;
+    }
+
+    .iconfont-wrapper .mbr-iconfont {
+      font-size: 16px;
+      display: inline-block;
+      margin-right: 8px;
+      color: #9c9c9c;
+    }
+
+    .mbr-label {
+      margin-bottom: 0;
+      color: #000000;
+      text-align: center;
+    }
+
+    .title-wrapper .mbr-section-title {
+      margin-bottom: 16px;
+      position: relative;
+      text-align: center;
+      background-image: linear-gradient(-180deg, #f5f5f5, #000000 40%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .text-wrapper .mbr-text {
+      color: #515151;
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .panel-group .card {
+      position: relative;
+      padding: 7px 16px;
+      background-color: #f5f5f5;
+      border-top: 3px solid #ffffff;
+      box-shadow: 0 8px 15px -8px #9c9c9c;
+      transition: all 0.3s ease-in-out;
+      margin-bottom: 16px;
+      border-radius: 10px;
+    }
+
+    .card-header {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+    }
+
+    .panel-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .panel-title-edit {
+      margin-bottom: 0;
+      color: #000000;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .icon-wrapper {
+      width: 24px;
+      height: 24px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 24px;
+      transition: all 0.3s ease-in-out;
+      border-radius: 50%;
+    }
+
+    .icon-wrapper .mbr-iconfont {
+      font-size: 16px;
+      transition: all 0.3s ease-in-out;
+      color: #000000;
+    }
+
+    .panel-title[aria-expanded="true"] .icon-wrapper .mbr-iconfont {
+      transform: rotate(-180deg);
+    }
+
+    .panel-body {
+      padding: 8px 0;
+    }
+
+    .panel-text {
+      display: inline-flex;
+      width: 95%;
+      margin-bottom: 0;
+      color: #515151;
+    }
+
+    @media (max-width: 1440px) {
+      .panel-text {
+        width: 100%;
+      }
+    }
+
+    .mbr-section-title, .title-wrapper {
+      color: #000000;
+      text-align: center;
+    }
+
+    .mbr-text, .text-wrapper {
+      color: #515151;
+      text-align: center;
+    }
+
+    .panel-title-edit {
+      color: #000000;
+    }
+
+    .panel-text {
+      color: #515151;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===========================
+       FAQ SECTION
+       =========================== -->
+  <section class="faq-section bg-image">
+    <div class="mbr-overlay" style="background-color: rgba(245,245,245,0.6); position:absolute; inset:0;"></div>
+    <div class="container position-relative">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+
+          <div class="content-wrapper">
+            <div class="label-wrapper">
+              <div class="label-wrap">
+                <div class="iconfont-wrapper">
+                  <span class="mbr-iconfont">❓</span>
+                </div>
+                <h3 class="mbr-label mbr-fonts-style">FAQ</h3>
+              </div>
+            </div>
+            <div class="title-wrapper">
+              <h2 class="mbr-section-title mbr-fonts-style">Got Questions?</h2>
+            </div>
+            <div class="text-wrapper">
+              <p class="mbr-text mbr-fonts-style">We’ve got answers. Ask us anything!</p>
+            </div>
+          </div>
+
+          <div class="panel-group accordion" id="faqAccordion">
+            <!-- Q1 -->
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h4 class="panel-title" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false">
+                  <span class="panel-title-edit">What is Bio-Rhythm Sync?</span>
+                  <div class="icon-wrapper"><span class="mbr-iconfont">⌄</span></div>
+                </h4>
+              </div>
+              <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="panel-body">
+                  <p class="panel-text">It’s your AI buddy that syncs your body’s natural rhythms with your busy schedule.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h4 class="panel-title" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false">
+                  <span class="panel-title-edit">Is it hard to use?</span>
+                  <div class="icon-wrapper"><span class="mbr-iconfont">⌄</span></div>
+                </h4>
+              </div>
+              <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="panel-body">
+                  <p class="panel-text">Nope! Just connect your wearables and let the magic happen — easy peasy.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h4 class="panel-title" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false">
+                  <span class="panel-title-edit">Will it fix my burnout?</span>
+                  <div class="icon-wrapper"><span class="mbr-iconfont">⌄</span></div>
+                </h4>
+              </div>
+              <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="panel-body">
+                  <p class="panel-text">It’s designed to help! By aligning your rhythms, you’ll feel more balanced and recharged.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h4 class="panel-title" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false">
+                  <span class="panel-title-edit">What data do you use?</span>
+                  <div class="icon-wrapper"><span class="mbr-iconfont">⌄</span></div>
+                </h4>
+              </div>
+              <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="panel-body">
+                  <p class="panel-text">We analyze your sleep, activity, and environment data — a complete wellness snapshot.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h4 class="panel-title" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false">
+                  <span class="panel-title-edit">Is my data safe?</span>
+                  <div class="icon-wrapper"><span class="mbr-iconfont">⌄</span></div>
+                </h4>
+              </div>
+              <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="panel-body">
+                  <p class="panel-text">Absolutely. We guard your data like a dragon guards its gold — seriously secure.</p>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- end accordion -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
